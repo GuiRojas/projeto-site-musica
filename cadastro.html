@@ -61,7 +61,7 @@
 					<label for="email">Email</label>					
 				</div>
 				<div class="input-field col s6 l6">
-					<input type="text" class="datepicker" name="dataNascimento">
+					<input type="text" class="datepicker" id="dataNascimento" name="dataNascimento">
 					<label for="dataNascimento">Data de Nascimento</label>					
 				</div>
 			</div>
@@ -84,7 +84,7 @@
 			</div>
 
 			<div class="row">
-				<h5 class="header col s12 light center">Gêneros favoritos</h3>
+				<h5 class="header col s12 light center">Gêneros favoritos</h5>
 				<div class="input-field col s4 l4">
 					<p><label><input type="checkbox" class="red" /><span>Rock</span></label></p>
 					<p><label><input type="checkbox"/><span>Pop</span></label></p>
@@ -107,7 +107,7 @@
 			</div>
 
 			<div class="row">
-				<h5 class="header col s12 light center">Opções de música estrangeira</h3>
+				<h5 class="header col s12 light center">Opções de música estrangeira</h5>
 				<div class="input-field col s4 l4">
 					<p><label><input name="musEstr" type="radio"/><span>Apenas música nacional</span></label></p>
 				</div>
@@ -176,7 +176,7 @@
 	<script src="js/materialize.js"></script>
 	<script src="js/init.js"></script>
 
-	<script type="text/javascript">
+	<script>
 		var today = new Date();
 
 		document.addEventListener('DOMContentLoaded', function() {
